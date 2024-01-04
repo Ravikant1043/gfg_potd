@@ -20,5 +20,5 @@ int count(int n){
                     l=m+1;
                 }
             }
-            return m+min(m%5,5-(m%5));
+            return m+min(m%5,5-(m%5));  // instead this i can store the answer also to not encounter this statement
         }
